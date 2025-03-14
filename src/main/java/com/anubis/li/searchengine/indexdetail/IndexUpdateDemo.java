@@ -14,12 +14,6 @@ import org.apache.lucene.index.Term;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
-/**
- * @Description: 索引更新
- * @author liguangsheng
- * @date 2018年5月11日
- *
- */
 
 public class IndexUpdateDemo {
 

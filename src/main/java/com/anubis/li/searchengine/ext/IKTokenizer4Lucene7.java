@@ -9,11 +9,7 @@ import org.wltea.analyzer.core.Lexeme;
 
 import java.io.IOException;
 
-/**
- * 因为Analyzer的createComponents方法API改变了需要重新实现分词器
- * @author THINKPAD
- *
- */
+
 public class IKTokenizer4Lucene7 extends Tokenizer {
 
     // IK分词器实现

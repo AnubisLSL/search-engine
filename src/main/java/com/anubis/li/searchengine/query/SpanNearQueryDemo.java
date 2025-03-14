@@ -20,12 +20,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 
-/**
- * @Description: SpanNearQuery 临近查询（跨度查询）
- * @author liguangsheng
- * @date 2018年5月12日
- *
- */
+
 public class SpanNearQueryDemo {
 
     public static void main(String[] args) throws IOException, ParseException {

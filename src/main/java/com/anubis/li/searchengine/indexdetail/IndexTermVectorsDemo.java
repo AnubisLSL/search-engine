@@ -15,11 +15,7 @@ import org.apache.lucene.store.FSDirectory;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * 词向向量
- * @author THINKPAD
- *
- */
+
 public class IndexTermVectorsDemo {
 
     public static void main(String[] args) {

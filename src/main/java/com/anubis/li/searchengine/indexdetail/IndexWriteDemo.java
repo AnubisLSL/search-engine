@@ -19,12 +19,7 @@ import org.apache.lucene.util.NumericUtils;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * 索引的创建
- *
- * @author THINKPAD
- *
- */
+
 public class IndexWriteDemo {
 
     public static void main(String[] args) {

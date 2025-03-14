@@ -5,13 +5,7 @@ import org.apache.lucene.document.FieldType;
 import org.apache.lucene.util.BytesRef;
 import org.apache.lucene.util.NumericUtils;
 
-/**
- *
- * @Description: 扩展整型Field
- * @author liguangsheng
- * @date 2018年5月11日
- *
- */
+
 public class ExtendField extends Field {
     public ExtendField(String fieldName, int value, FieldType type) {
         super(fieldName, type);

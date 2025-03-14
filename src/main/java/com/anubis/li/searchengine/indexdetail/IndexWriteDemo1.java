@@ -22,12 +22,7 @@ import org.apache.lucene.util.BytesRef;
 import org.apache.lucene.util.NumericUtils;
 
 
-/**
- * @Description: Lucene预定义的字段子类的使用
- * @author liguangsheng
- * @date 2018年5月11日
- *
- */
+
 public class IndexWriteDemo1 {
 
     public static void main(String[] args) {

@@ -7,14 +7,7 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 
 
-/**
- * IKAnalyzer分词器集成测试:
- * 细粒度切分：把词分到最细
- * 智能切分：根据词库进行拆分符合我们的语言习惯
- *
- * @author THINKPAD
- *
- */
+
 public class IKAnalyzerTest {
     private static void doToken(TokenStream ts) throws IOException {
         ts.reset();

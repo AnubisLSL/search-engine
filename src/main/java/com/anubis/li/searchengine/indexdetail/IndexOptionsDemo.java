@@ -14,12 +14,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 
-/**
- * 索引选项选择
- *
- * @author THINKPAD
- *
- */
+
 public class IndexOptionsDemo {
 
     public static void main(String[] args) {

@@ -14,11 +14,7 @@ import org.apache.lucene.store.FSDirectory;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * Lucene索引创建代码示例
- * @author THINKPAD
- *
- */
+
 public class IndexBaseFlower {
     public static void main(String[] args) throws IOException {
         // 创建使用的分词器

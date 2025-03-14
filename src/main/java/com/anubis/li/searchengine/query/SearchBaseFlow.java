@@ -17,12 +17,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 
-/**
- * @Description: lucene 搜索基本流程示例
- * @author liguangsheng
- * @date 2018年5月11日
- *
- */
+
 
 public class SearchBaseFlow {
 

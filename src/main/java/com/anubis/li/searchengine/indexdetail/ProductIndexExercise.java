@@ -16,11 +16,7 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.NumericUtils;
 
 
-/**
- * 为商品记录建立索引
- * @author THINKPAD
- *
- */
+
 public class ProductIndexExercise {
 
     public static void main(String[] args) {

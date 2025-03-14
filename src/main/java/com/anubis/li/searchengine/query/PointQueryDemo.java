@@ -18,12 +18,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 
-/**
- * @Description: 数值查询
- * @author liguangsheng
- * @date 2018年5月12日
- *
- */
+
 public class PointQueryDemo {
     public static void main(String[] args) throws IOException, ParseException {
         // 使用的分词器

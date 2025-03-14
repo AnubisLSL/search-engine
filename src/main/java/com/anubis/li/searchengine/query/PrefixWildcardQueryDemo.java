@@ -22,12 +22,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 
-/**
- * @Description: PrefixQuery前缀查询/WildcardQuery通配符查询/RegexpQuery正则表达式查询/FuzzyQuery模糊查询
- * @author liguangsheng
- * @date 2018年5月12日
- *
- */
+
 public class PrefixWildcardQueryDemo {
 
     public static void main(String[] args) throws IOException, ParseException {

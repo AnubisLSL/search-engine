@@ -22,12 +22,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 
-/**
- * @Description: 搜索查询示例
- * @author liguangsheng
- * @date 2018年5月12日
- *
- */
+
 
 public class SearchQueryDemo {
 
