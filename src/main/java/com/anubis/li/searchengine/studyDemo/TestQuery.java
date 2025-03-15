@@ -17,7 +17,7 @@ import java.nio.file.Paths;
 import java.text.ParseException;
 
 public class TestQuery {
-    private final static String IDX_DIR = "D:\\lucene";
+    private final static String IDX_DIR = "C:\\lucene";
 
     public static void main(String[] args) {
         try {
