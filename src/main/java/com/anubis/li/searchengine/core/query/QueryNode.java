@@ -6,12 +6,6 @@ import com.anubis.li.searchengine.core.common.enums.OperatorEnum;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-
 public class QueryNode {
     /**
      * 查询节点的值列表。
