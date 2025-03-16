@@ -1,4 +1,4 @@
-package com.anubis.li.searchengine.task;
+package com.anubis.li.searchengine.core.task;
 
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
