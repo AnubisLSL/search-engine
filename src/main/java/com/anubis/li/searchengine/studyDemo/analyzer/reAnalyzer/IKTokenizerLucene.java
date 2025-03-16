@@ -1,4 +1,4 @@
-package com.anubis.li.searchengine.analyzer.reAnalyzer;
+package com.anubis.li.searchengine.studyDemo.analyzer.reAnalyzer;
 
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;

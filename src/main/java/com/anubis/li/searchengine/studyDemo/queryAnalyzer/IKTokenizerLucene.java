@@ -1,6 +1,5 @@
-package com.anubis.li.searchengine.queryAnalyzer;
+package com.anubis.li.searchengine.studyDemo.queryAnalyzer;
 
-import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
