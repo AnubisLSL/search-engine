@@ -1,11 +1,15 @@
 package com.anubis.li.searchengine.core.service;
 
+import com.anubis.li.searchengine.core.LuceneIndex;
+import com.anubis.li.searchengine.core.common.event.EventData;
 import com.anubis.li.searchengine.core.model.FieldConfig;
 import com.anubis.li.searchengine.core.util.QueryUtil;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.search.MatchAllDocsQuery;
+import org.apache.lucene.search.Query;
 
 import java.io.IOException;
+import java.util.List;
 
 public class DeleteService {
     LuceneIndex luceneIndex;

@@ -1,8 +1,12 @@
 package com.anubis.li.searchengine.core.service;
 
+import com.anubis.li.searchengine.core.LuceneIndex;
+import com.anubis.li.searchengine.core.common.event.EventData;
 import com.anubis.li.searchengine.core.util.DocumentUtil;
+import org.apache.lucene.document.Document;
 
 import java.io.IOException;
+import java.util.List;
 
 public class InsertService {
     LuceneIndex luceneIndex;

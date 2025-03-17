@@ -1,5 +1,6 @@
 package com.anubis.li.searchengine.core.task;
 
+import com.anubis.li.searchengine.core.LuceneService;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
 import java.util.concurrent.ScheduledFuture;

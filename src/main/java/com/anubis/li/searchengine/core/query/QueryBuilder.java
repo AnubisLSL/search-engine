@@ -1,18 +1,13 @@
 package com.anubis.li.searchengine.core.query;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.anubis.li.searchengine.core.LuceneService;
+import com.anubis.li.searchengine.core.common.enums.LinkEnum;
+import com.anubis.li.searchengine.core.common.enums.OperatorEnum;
+import com.anubis.li.searchengine.core.common.enums.QueryEnum;
+import com.anubis.li.searchengine.core.common.utils.StringUtil;
+import com.anubis.li.searchengine.core.handle.TypeHandler;
+import com.anubis.li.searchengine.core.model.FieldConfig;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import lucene.server.core.LuceneService;
-import lucene.server.core.model.FieldConfig;
-import lucene.server.common.enums.QueryEnum;
-import lucene.server.common.exception.SearchException;
-import lucene.server.common.enums.LinkEnum;
-import lucene.server.common.enums.OperatorEnum;
-import lucene.server.common.utils.JsonUtil;
-import lucene.server.common.utils.StringUtil;
-import lucene.server.core.handle.TypeHandler;
-import lucene.server.core.util.DocumentUtil;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.search.*;
@@ -119,7 +114,7 @@ public class QueryBuilder {
             throw  new SearchException("没有值："+node.getField());
         }
         if(OperatorEnum.Parser.equals(node.getOperator())){
-            return typeHandler.parser(node.getField(),node.getValues(),LuceneService.getIndex(this.indexName).getAnalyzer());
+            return typeHandler.parser(node.getField(),node.getValues(), LuceneService.getIndex(this.indexName).getAnalyzer());
         }else if(OperatorEnum.Phrase.equals(node.getOperator())){
             return typeHandler.phrase(node.getField(),node.getValues(),LuceneService.getIndex(this.indexName).getAnalyzer());
         }else{

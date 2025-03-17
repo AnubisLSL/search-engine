@@ -1,7 +1,15 @@
 package com.anubis.li.searchengine.core.util;
 
+import com.anubis.li.searchengine.core.handle.*;
+import com.anubis.li.searchengine.core.model.FieldConfig;
+import org.apache.lucene.document.Document;
+import org.apache.lucene.search.Query;
+
+import java.lang.reflect.Type;
 import java.math.BigDecimal;
 import java.sql.Time;
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 

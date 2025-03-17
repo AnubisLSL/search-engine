@@ -1,5 +1,9 @@
 package com.anubis.li.searchengine.core.service;
 
+import com.anubis.li.searchengine.core.LuceneIndex;
+import com.anubis.li.searchengine.core.common.utils.StringUtil;
+import org.apache.lucene.document.Document;
+import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.grouping.GroupDocs;
 import org.apache.lucene.search.grouping.GroupingSearch;

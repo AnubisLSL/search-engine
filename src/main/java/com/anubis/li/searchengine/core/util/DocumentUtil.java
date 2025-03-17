@@ -1,6 +1,9 @@
 package com.anubis.li.searchengine.core.util;
 
+import com.anubis.li.searchengine.core.common.utils.StringUtil;
+import com.anubis.li.searchengine.core.model.FieldConfig;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexableField;
 import org.apache.lucene.index.IndexableFieldType;
 

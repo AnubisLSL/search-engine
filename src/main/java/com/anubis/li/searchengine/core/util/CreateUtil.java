@@ -1,7 +1,9 @@
 package com.anubis.li.searchengine.core.util;
 
 
+import com.anubis.li.searchengine.core.LuceneService;
 import com.anubis.li.searchengine.core.model.IndexConfig;
+import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
 import org.apache.lucene.analysis.core.WhitespaceAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;

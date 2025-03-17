@@ -1,11 +1,17 @@
 package com.anubis.li.searchengine.core.service;
 
+import com.anubis.li.searchengine.core.LuceneIndex;
+import com.anubis.li.searchengine.core.common.event.EventData;
+import com.anubis.li.searchengine.core.model.FieldConfig;
 import com.anubis.li.searchengine.core.util.DocumentUtil;
 import com.anubis.li.searchengine.core.util.QueryUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.lucene.document.Document;
 import org.apache.lucene.index.Term;
+import org.apache.lucene.search.Query;
 
 import java.io.IOException;
+import java.util.List;
 
 @Slf4j
 public class UpdateService {

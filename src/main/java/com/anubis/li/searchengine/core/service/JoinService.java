@@ -1,5 +1,7 @@
 package com.anubis.li.searchengine.core.service;
 
+import com.anubis.li.searchengine.core.LuceneIndex;
+
 public class JoinService {
     LuceneIndex luceneIndex;
     public JoinService(LuceneIndex luceneIndex){

@@ -1,7 +1,9 @@
 package com.anubis.li.searchengine.core.service;
 
+import com.anubis.li.searchengine.core.LuceneIndex;
 import com.anubis.li.searchengine.core.common.SearchPage;
 import com.anubis.li.searchengine.core.util.DocumentUtil;
+import org.apache.lucene.document.Document;
 import org.apache.lucene.document.StringField;
 import org.apache.lucene.search.*;
 
@@ -22,7 +24,7 @@ public class SearchService {
      * @return
      * @throws IOException
      */
-    public Document searchOneDocument(Query query,String selectFields) throws IOException {
+    public Document searchOneDocument(Query query, String selectFields) throws IOException {
         ScoreDoc[] scoreDocs = search(query, null,1).scoreDocs;
         if(scoreDocs.length == 0) {return null;}
         Document document = getDocument(scoreDocs[0].doc,getFieldsSet(selectFields));
