@@ -119,10 +119,11 @@
         </dependency>
 
 
+
         <dependency>
-            <groupId>org.wltea.ik-analyzer</groupId>
+            <groupId>com.github.magese</groupId>
             <artifactId>ik-analyzer</artifactId>
-            <version>8.1.0</version>
+            <version>8.5.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.lucene</groupId>
